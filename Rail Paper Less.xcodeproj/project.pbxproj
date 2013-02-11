@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0BA11315774D1900DE056C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BA11215774D1900DE056C /* Reachability.m */; };
+		3A0BA11515774D3B00DE056C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BA11415774D3B00DE056C /* CFNetwork.framework */; };
+		3A0BA11715774D7E00DE056C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BA11615774D7E00DE056C /* SystemConfiguration.framework */; };
+		3A0BA11B157755B300DE056C /* NetwrokErrorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BA119157755B300DE056C /* NetwrokErrorVC.m */; };
+		3A0BA11E157755D800DE056C /* NetwrokErrorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BA11D157755D800DE056C /* NetwrokErrorVC.xib */; };
+		3A0BA1211577604800DE056C /* NetworkInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BA1201577604800DE056C /* NetworkInterface.m */; };
+		3A0C53B015876B6700E0B791 /* CWXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C53AF15876B6700E0B791 /* CWXMLParser.m */; };
+		3A27BC8A157CD44D00DFC480 /* orderLineDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A27BC88157CD44D00DFC480 /* orderLineDetailsVC.m */; };
+		3A27BC8E157CD4C100DFC480 /* orderLineDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A27BC8D157CD4C100DFC480 /* orderLineDetailsVC.xib */; };
+		3A287D30159339C000501460 /* WhiteRaccoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A287D2F159339C000501460 /* WhiteRaccoon.m */; };
+		3A31B6D51532CDB4008F16BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A31B6D41532CDB4008F16BD /* UIKit.framework */; };
+		3A31B6D71532CDB4008F16BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A31B6D61532CDB4008F16BD /* Foundation.framework */; };
+		3A31B6D91532CDB4008F16BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A31B6D81532CDB4008F16BD /* CoreGraphics.framework */; };
+		3A31B6DF1532CDB4008F16BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B6DD1532CDB4008F16BD /* InfoPlist.strings */; };
+		3A31B6E11532CDB4008F16BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B6E01532CDB4008F16BD /* main.m */; };
+		3A31B6E51532CDB4008F16BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B6E41532CDB4008F16BD /* AppDelegate.m */; };
+		3A31B6E81532CDB4008F16BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B6E71532CDB4008F16BD /* ViewController.m */; };
+		3A31B6EB1532CDB4008F16BD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B6E91532CDB4008F16BD /* ViewController_iPhone.xib */; };
+		3A31B6EE1532CDB4008F16BD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B6EC1532CDB4008F16BD /* ViewController_iPad.xib */; };
+		3A31B6FE1532CEFF008F16BD /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B6FC1532CEFF008F16BD /* LoginVC.m */; };
+		3A31B7011532CF2D008F16BD /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B7001532CF2D008F16BD /* LoginVC.xib */; };
+		3A31B7071532CFAA008F16BD /* railBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B7061532CFAA008F16BD /* railBanner.jpg */; };
+		3A31B7091532F97A008F16BD /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B7081532F97A008F16BD /* green_button.png */; };
+		3A31B7141532FBA6008F16BD /* ConstantDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B7131532FBA6008F16BD /* ConstantDefines.m */; };
+		3A31B7171532FD89008F16BD /* App_GeneralUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B7161532FD89008F16BD /* App_GeneralUtilities.m */; };
+		3A31B71B1532FE3D008F16BD /* VZAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B71A1532FE3D008F16BD /* VZAnimatedView.m */; };
+		3A31B71E1532FED0008F16BD /* App_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B71D1532FED0008F16BD /* App_ViewController.m */; };
+		3A31B7211532FFA4008F16BD /* AuthenticationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B7201532FFA4008F16BD /* AuthenticationService.m */; };
+		3A31B72515331363008F16BD /* RootTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B72415331363008F16BD /* RootTab.xib */; };
+		3A31B72F153316A0008F16BD /* App_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B72D153316A0008F16BD /* App_TableViewController.m */; };
+		3A31B732153316D5008F16BD /* App_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B731153316D5008F16BD /* App_TableViewController.xib */; };
+		3A31B73D1533199F008F16BD /* OrdersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B73C1533199E008F16BD /* OrdersVC.m */; };
+		3A31B74115332394008F16BD /* OrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31B73F15332394008F16BD /* OrderDetailsVC.m */; };
+		3A31B744153323C0008F16BD /* OrderDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B743153323C0008F16BD /* OrderDetailsVC.xib */; };
+		3A3BEF2115F0F071001655F5 /* priorityInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BEF2015F0F070001655F5 /* priorityInputView.xib */; };
+		3A425A6C1588CDC20034DE13 /* operationsDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A425A6A1588CDC20034DE13 /* operationsDetailsVC.m */; };
+		3A425A701588CDFF0034DE13 /* operationsDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A425A6F1588CDFF0034DE13 /* operationsDetailsVC.xib */; };
+		3A45D4201628280100E4A37F /* drawingPathXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D41F1628280100E4A37F /* drawingPathXMLParser.m */; };
+		3A45D42516284A0900E4A37F /* showDrawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D42316284A0900E4A37F /* showDrawingVC.m */; };
+		3A45D42616284A0900E4A37F /* showDrawingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D42416284A0900E4A37F /* showDrawingVC.xib */; };
+		3A4AD1C5156B807D002DFD05 /* DataDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AD1C4156B807D002DFD05 /* DataDownloadOperation.m */; };
+		3A4AD1D7156BCFA2002DFD05 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A4AD1D6156BCFA2002DFD05 /* bg1.jpg */; };
+		3A4AD1DB156BD0A9002DFD05 /* inputParamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AD1D9156BD0A8002DFD05 /* inputParamVC.m */; };
+		3A7196DF153D4D76007F2E00 /* priorityOrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7196DD153D4D76007F2E00 /* priorityOrderDetailsVC.m */; };
+		3A7196E3153D4D9A007F2E00 /* priorityOrderDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7196E2153D4D9A007F2E00 /* priorityOrderDetailsVC.xib */; };
+		3A7196E9153D5153007F2E00 /* icon_information.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7196E8153D5153007F2E00 /* icon_information.png */; };
+		3A7196ED153D5BFA007F2E00 /* backLogOrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7196EB153D5BF9007F2E00 /* backLogOrderDetailsVC.m */; };
+		3A7196F0153D5C1A007F2E00 /* backLogOrderDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7196EF153D5C1A007F2E00 /* backLogOrderDetailsVC.xib */; };
+		3A7196F9153D5F8F007F2E00 /* dummyLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7196F8153D5F8F007F2E00 /* dummyLoginView.m */; };
+		3A7B30B2153814890054D776 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B30B1153814890054D776 /* DataSource.m */; };
+		3A7B30BA153851ED0054D776 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B30B9153851ED0054D776 /* UserProfile.m */; };
+		3A7B30BC1538725F0054D776 /* 3417653.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B30BB1538725F0054D776 /* 3417653.GIF */; };
+		3A8744A71578D1150069C959 /* userInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8744A51578D1150069C959 /* userInputVC.m */; };
+		3A8744AA1578D1490069C959 /* userInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8744A91578D1490069C959 /* userInputVC.xib */; };
+		3A8744AE1578D9210069C959 /* ordersListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8744AC1578D9210069C959 /* ordersListVC.m */; };
+		3A8744B11578D9500069C959 /* ordersListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8744B01578D9500069C959 /* ordersListVC.xib */; };
+		3A8744B31578DA260069C959 /* RootTabMH.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8744B21578DA260069C959 /* RootTabMH.xib */; };
+		3A8A3079157CF87D00F5B970 /* POXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A3078157CF87D00F5B970 /* POXMLParser.m */; };
+		3A8A307D157CFD1300F5B970 /* POOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A307C157CFD1300F5B970 /* POOrder.m */; };
+		3A8A3080157CFDA700F5B970 /* PositionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A307F157CFDA700F5B970 /* PositionData.m */; };
+		3A8E74391581EF5200A0C112 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E74381581EF5100A0C112 /* QuartzCore.framework */; };
+		3A8E743E15821B1500A0C112 /* userInputCWVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E743D15821B1500A0C112 /* userInputCWVC.m */; };
+		3A8ED0A315872FB60003305F /* CWOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8ED0A215872FB60003305F /* CWOrder.m */; };
+		3A8F8DB915A6C684003EAD3F /* DefaultGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F8DB815A6C684003EAD3F /* DefaultGridCell.xib */; };
+		3A8F8DC115A6C75D003EAD3F /* DefaultGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F8DC015A6C75D003EAD3F /* DefaultGridCell.m */; };
+		3A90F1531585D95E00500449 /* RootTabCW.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F1521585D95E00500449 /* RootTabCW.xib */; };
+		3A90F15B1585F98200500449 /* CWOrdersListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90F1591585F98200500449 /* CWOrdersListVC.m */; };
+		3A90F15E1585FA4200500449 /* CWOrdersListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F15D1585FA4200500449 /* CWOrdersListVC.xib */; };
+		3A90F16215861A2400500449 /* operationsListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90F16015861A2400500449 /* operationsListVC.m */; };
+		3A90F16515861A5D00500449 /* operationsListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F16415861A5D00500449 /* operationsListVC.xib */; };
+		3A9119D9153F01700090C1FC /* 470018835.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A9119D8153F01700090C1FC /* 470018835.gif */; };
+		3A9119DC153F017C0090C1FC /* 450053302.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A9119DB153F017C0090C1FC /* 450053302.gif */; };
+		3A9119DE153F01830090C1FC /* 450053070.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A9119DD153F01830090C1FC /* 450053070.gif */; };
+		3A9119E0153F018B0090C1FC /* 440039551.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A9119DF153F018B0090C1FC /* 440039551.gif */; };
+		3A91B002157F74A100DFE90B /* inputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A91B001157F74A100DFE90B /* inputView.xib */; };
+		3A91E2FD156F9BC700C755E9 /* inputParamVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A91E2FC156F9BC700C755E9 /* inputParamVC.xib */; };
+		3A941DF315B44F04009F35AB /* helpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A941DF115B44F04009F35AB /* helpViewController.m */; };
+		3A941DF715B44F45009F35AB /* helpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A941DF615B44F45009F35AB /* helpViewController.xib */; };
+		3A941DFB15B45224009F35AB /* help.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A941DFA15B45224009F35AB /* help.pdf */; };
+		3A941E0815B455D3009F35AB /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A941E0315B455D3009F35AB /* FastPdfKit.framework */; };
+		3A941E0915B455D3009F35AB /* FastPdfKitFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A941E0515B455D3009F35AB /* FastPdfKitFramework.xcconfig */; };
+		3A941E0A15B455D3009F35AB /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A941E0615B455D3009F35AB /* FPKReaderBundle.bundle */; };
+		3A941E0B15B455D3009F35AB /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A941E0715B455D3009F35AB /* Snippets.txt */; };
+		3AA1C3D7157786F100C2B51E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BA12615777E2700DE056C /* Default-Portrait@2x~ipad.png */; };
+		3AA1C3D9157786F900C2B51E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3962D15347CAC002F78D9 /* Default-Portrait~ipad.png */; };
+		3AB15E691536E3A8000177CC /* App_Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB15E681536E3A8000177CC /* App_Storage.m */; };
+		3AB15E6C1536E90D000177CC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB15E6B1536E90D000177CC /* libsqlite3.0.dylib */; };
+		3AB15E751536EDA2000177CC /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB15E741536EDA2000177CC /* XMLParser.m */; };
+		3AB15E7F1536F359000177CC /* orderXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3AB15E7E1536F359000177CC /* orderXML.xml */; };
+		3AB15E8715370771000177CC /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB15E8615370771000177CC /* Order.m */; };
+		3AB18569158733AD0036F159 /* OperationsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB18568158733AD0036F159 /* OperationsData.m */; };
+		3AB39615153470B1002F78D9 /* app_btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB39613153470B1002F78D9 /* app_btn_back.png */; };
+		3AB39616153470B1002F78D9 /* app_btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB39614153470B1002F78D9 /* app_btn_back@2x.png */; };
+		3AB3961A15347296002F78D9 /* PriorityOrdersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3961915347296002F78D9 /* PriorityOrdersVC.m */; };
+		3AB3961D15347486002F78D9 /* BackLogOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3961C15347486002F78D9 /* BackLogOrders.m */; };
+		3AB39620153475C6002F78D9 /* app_btn_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3961E153475C6002F78D9 /* app_btn_settings.png */; };
+		3AB39621153475C6002F78D9 /* app_btn_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3961F153475C6002F78D9 /* app_btn_settings@2x.png */; };
+		3AB39625153476C7002F78D9 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB39623153476C6002F78D9 /* SettingsVC.m */; };
+		3AB39628153476EC002F78D9 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB39627153476EC002F78D9 /* SettingsVC.xib */; };
+		3AE12C3D157E2242009953E3 /* rail.db in Resources */ = {isa = PBXBuildFile; fileRef = 3AE12C3C157E2242009953E3 /* rail.db */; };
+		3AE12C40157E428E009953E3 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE12C3F157E428E009953E3 /* GridCell.m */; };
+		3AE7D941156A477B00FEB710 /* LoginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE7D940156A477B00FEB710 /* LoginParser.m */; };
+		3AEC64361575098100BCFDF2 /* DefaultTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEC64351575098100BCFDF2 /* DefaultTableCell.xib */; };
+		3AEC643A15750A2400BCFDF2 /* DefaultTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC643915750A2400BCFDF2 /* DefaultTableCell.m */; };
+		3AF29F031566511E00D40C0D /* LoginOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF29F021566511E00D40C0D /* LoginOperation.m */; };
+		3AFFA005153C0C5800E7AD4B /* drawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFFA003153C0C5800E7AD4B /* drawingVC.m */; };
+		3AFFA009153C0C7A00E7AD4B /* drawingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFFA008153C0C7A00E7AD4B /* drawingVC.xib */; };
+		3AFFA00B153C553100E7AD4B /* 4000198.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3AFFA00A153C553100E7AD4B /* 4000198.gif */; };
+		3AFFA015153C5BD300E7AD4B /* list_item_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFFA014153C5BD300E7AD4B /* list_item_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0BA11115774D1900DE056C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Rail Paper Less/Classes/Network/Reachability.h"; sourceTree = "<group>"; };
+		3A0BA11215774D1900DE056C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "Rail Paper Less/Classes/Network/Reachability.m"; sourceTree = "<group>"; };
+		3A0BA11415774D3B00DE056C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3A0BA11615774D7E00DE056C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A0BA118157755B300DE056C /* NetwrokErrorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetwrokErrorVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/NetwrokErrorVC.h"; sourceTree = "<group>"; };
+		3A0BA119157755B300DE056C /* NetwrokErrorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetwrokErrorVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/NetwrokErrorVC.m"; sourceTree = "<group>"; };
+		3A0BA11D157755D800DE056C /* NetwrokErrorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NetwrokErrorVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/NetwrokErrorVC.xib"; sourceTree = "<group>"; };
+		3A0BA11F1577604800DE056C /* NetworkInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkInterface.h; path = "Rail Paper Less/Classes/Network/NetworkInterface.h"; sourceTree = "<group>"; };
+		3A0BA1201577604800DE056C /* NetworkInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkInterface.m; path = "Rail Paper Less/Classes/Network/NetworkInterface.m"; sourceTree = "<group>"; };
+		3A0BA12215777DF500DE056C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A0BA12415777DFB00DE056C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3A0BA12615777E2700DE056C /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3A0C53AE15876B6700E0B791 /* CWXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWXMLParser.h; path = "Rail Paper Less/Classes/XMLParser/CWXMLParser.h"; sourceTree = "<group>"; };
+		3A0C53AF15876B6700E0B791 /* CWXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWXMLParser.m; path = "Rail Paper Less/Classes/XMLParser/CWXMLParser.m"; sourceTree = "<group>"; };
+		3A27BC87157CD44D00DFC480 /* orderLineDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = orderLineDetailsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/orderLineDetailsVC.h"; sourceTree = "<group>"; };
+		3A27BC88157CD44D00DFC480 /* orderLineDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = orderLineDetailsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/orderLineDetailsVC.m"; sourceTree = "<group>"; };
+		3A27BC8D157CD4C100DFC480 /* orderLineDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = orderLineDetailsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/orderLineDetailsVC.xib"; sourceTree = "<group>"; };
+		3A287D2E159339C000501460 /* WhiteRaccoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteRaccoon.h; path = "Rail Paper Less/Classes/Services/WhiteRaccoon.h"; sourceTree = "<group>"; };
+		3A287D2F159339C000501460 /* WhiteRaccoon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiteRaccoon.m; path = "Rail Paper Less/Classes/Services/WhiteRaccoon.m"; sourceTree = "<group>"; };
+		3A31B6D01532CDB4008F16BD /* Rail Paper Less.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rail Paper Less.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A31B6D41532CDB4008F16BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A31B6D61532CDB4008F16BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A31B6D81532CDB4008F16BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A31B6DC1532CDB4008F16BD /* Rail Paper Less-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rail Paper Less-Info.plist"; sourceTree = "<group>"; };
+		3A31B6DE1532CDB4008F16BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A31B6E01532CDB4008F16BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A31B6E21532CDB4008F16BD /* Rail Paper Less-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rail Paper Less-Prefix.pch"; sourceTree = "<group>"; };
+		3A31B6E31532CDB4008F16BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A31B6E41532CDB4008F16BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A31B6E61532CDB4008F16BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A31B6E71532CDB4008F16BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A31B6EA1532CDB4008F16BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3A31B6ED1532CDB4008F16BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3A31B6FB1532CEFF008F16BD /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/LoginVC.h"; sourceTree = "<group>"; };
+		3A31B6FC1532CEFF008F16BD /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/LoginVC.m"; sourceTree = "<group>"; };
+		3A31B7001532CF2D008F16BD /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/LoginVC.xib"; sourceTree = "<group>"; };
+		3A31B7061532CFAA008F16BD /* railBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = railBanner.jpg; path = "Rail Paper Less/UI/iPad/Resources/Images/railBanner.jpg"; sourceTree = "<group>"; };
+		3A31B7081532F97A008F16BD /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_button.png; path = "Rail Paper Less/UI/iPad/Resources/Images/green_button.png"; sourceTree = "<group>"; };
+		3A31B7121532FBA6008F16BD /* ConstantDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstantDefines.h; path = "Rail Paper Less/Classes/Utilities/ConstantDefines.h"; sourceTree = "<group>"; };
+		3A31B7131532FBA6008F16BD /* ConstantDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConstantDefines.m; path = "Rail Paper Less/Classes/Utilities/ConstantDefines.m"; sourceTree = "<group>"; };
+		3A31B7151532FD89008F16BD /* App_GeneralUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = App_GeneralUtilities.h; path = "Rail Paper Less/Classes/Utilities/App_GeneralUtilities.h"; sourceTree = "<group>"; };
+		3A31B7161532FD89008F16BD /* App_GeneralUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = App_GeneralUtilities.m; path = "Rail Paper Less/Classes/Utilities/App_GeneralUtilities.m"; sourceTree = "<group>"; };
+		3A31B7191532FE3D008F16BD /* VZAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VZAnimatedView.h; path = "Rail Paper Less/UI/iPad/Views/VZAnimatedView.h"; sourceTree = "<group>"; };
+		3A31B71A1532FE3D008F16BD /* VZAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VZAnimatedView.m; path = "Rail Paper Less/UI/iPad/Views/VZAnimatedView.m"; sourceTree = "<group>"; };
+		3A31B71C1532FED0008F16BD /* App_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = App_ViewController.h; path = "Rail Paper Less/UI/iPad/ViewControllers/App_ViewController.h"; sourceTree = "<group>"; };
+		3A31B71D1532FED0008F16BD /* App_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = App_ViewController.m; path = "Rail Paper Less/UI/iPad/ViewControllers/App_ViewController.m"; sourceTree = "<group>"; };
+		3A31B71F1532FFA4008F16BD /* AuthenticationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthenticationService.h; path = "Rail Paper Less/Classes/Services/AuthenticationService.h"; sourceTree = "<group>"; };
+		3A31B7201532FFA4008F16BD /* AuthenticationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthenticationService.m; path = "Rail Paper Less/Classes/Services/AuthenticationService.m"; sourceTree = "<group>"; };
+		3A31B72415331363008F16BD /* RootTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootTab.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/RootTab.xib"; sourceTree = "<group>"; };
+		3A31B72C153316A0008F16BD /* App_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = App_TableViewController.h; path = "Rail Paper Less/UI/iPad/ViewControllers/App_TableViewController.h"; sourceTree = "<group>"; };
+		3A31B72D153316A0008F16BD /* App_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = App_TableViewController.m; path = "Rail Paper Less/UI/iPad/ViewControllers/App_TableViewController.m"; sourceTree = "<group>"; };
+		3A31B731153316D5008F16BD /* App_TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = App_TableViewController.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/App_TableViewController.xib"; sourceTree = "<group>"; };
+		3A31B73B1533199E008F16BD /* OrdersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrdersVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/OrdersVC.h"; sourceTree = "<group>"; };
+		3A31B73C1533199E008F16BD /* OrdersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrdersVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/OrdersVC.m"; sourceTree = "<group>"; };
+		3A31B73E15332394008F16BD /* OrderDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderDetailsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/OrderDetailsVC.h"; sourceTree = "<group>"; };
+		3A31B73F15332394008F16BD /* OrderDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderDetailsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/OrderDetailsVC.m"; sourceTree = "<group>"; };
+		3A31B743153323C0008F16BD /* OrderDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderDetailsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/OrderDetailsVC.xib"; sourceTree = "<group>"; };
+		3A3BEF2015F0F070001655F5 /* priorityInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = priorityInputView.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/priorityInputView.xib"; sourceTree = "<group>"; };
+		3A425A691588CDC20034DE13 /* operationsDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = operationsDetailsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/operationsDetailsVC.h"; sourceTree = "<group>"; };
+		3A425A6A1588CDC20034DE13 /* operationsDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = operationsDetailsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/operationsDetailsVC.m"; sourceTree = "<group>"; };
+		3A425A6F1588CDFF0034DE13 /* operationsDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = operationsDetailsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/operationsDetailsVC.xib"; sourceTree = "<group>"; };
+		3A45D41E1628280100E4A37F /* drawingPathXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawingPathXMLParser.h; path = "Rail Paper Less/Classes/XMLParser/drawingPathXMLParser.h"; sourceTree = "<group>"; };
+		3A45D41F1628280100E4A37F /* drawingPathXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drawingPathXMLParser.m; path = "Rail Paper Less/Classes/XMLParser/drawingPathXMLParser.m"; sourceTree = "<group>"; };
+		3A45D42216284A0900E4A37F /* showDrawingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = showDrawingVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/showDrawingVC.h"; sourceTree = "<group>"; };
+		3A45D42316284A0900E4A37F /* showDrawingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = showDrawingVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/showDrawingVC.m"; sourceTree = "<group>"; };
+		3A45D42416284A0900E4A37F /* showDrawingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = showDrawingVC.xib; path = "Rail Paper Less/UI/iPad/ViewControllers/showDrawingVC.xib"; sourceTree = "<group>"; };
+		3A4AD1C3156B807D002DFD05 /* DataDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataDownloadOperation.h; path = "Rail Paper Less/Classes/Services/DataDownloadOperation.h"; sourceTree = "<group>"; };
+		3A4AD1C4156B807D002DFD05 /* DataDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataDownloadOperation.m; path = "Rail Paper Less/Classes/Services/DataDownloadOperation.m"; sourceTree = "<group>"; };
+		3A4AD1D6156BCFA2002DFD05 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		3A4AD1D8156BD0A8002DFD05 /* inputParamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inputParamVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/inputParamVC.h"; sourceTree = "<group>"; };
+		3A4AD1D9156BD0A8002DFD05 /* inputParamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = inputParamVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/inputParamVC.m"; sourceTree = "<group>"; };
+		3A7196DC153D4D76007F2E00 /* priorityOrderDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = priorityOrderDetailsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/priorityOrderDetailsVC.h"; sourceTree = "<group>"; };
+		3A7196DD153D4D76007F2E00 /* priorityOrderDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = priorityOrderDetailsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/priorityOrderDetailsVC.m"; sourceTree = "<group>"; };
+		3A7196E2153D4D9A007F2E00 /* priorityOrderDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = priorityOrderDetailsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/priorityOrderDetailsVC.xib"; sourceTree = "<group>"; };
+		3A7196E8153D5153007F2E00 /* icon_information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_information.png; sourceTree = "<group>"; };
+		3A7196EA153D5BF9007F2E00 /* backLogOrderDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = backLogOrderDetailsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/backLogOrderDetailsVC.h"; sourceTree = "<group>"; };
+		3A7196EB153D5BF9007F2E00 /* backLogOrderDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = backLogOrderDetailsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/backLogOrderDetailsVC.m"; sourceTree = "<group>"; };
+		3A7196EF153D5C1A007F2E00 /* backLogOrderDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = backLogOrderDetailsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/backLogOrderDetailsVC.xib"; sourceTree = "<group>"; };
+		3A7196F7153D5F8F007F2E00 /* dummyLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dummyLoginView.h; path = "Rail Paper Less/UI/iPad/Views/dummyLoginView.h"; sourceTree = "<group>"; };
+		3A7196F8153D5F8F007F2E00 /* dummyLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dummyLoginView.m; path = "Rail Paper Less/UI/iPad/Views/dummyLoginView.m"; sourceTree = "<group>"; };
+		3A7B30B0153814890054D776 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSource.h; path = "Rail Paper Less/Classes/Services/DataSource.h"; sourceTree = "<group>"; };
+		3A7B30B1153814890054D776 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSource.m; path = "Rail Paper Less/Classes/Services/DataSource.m"; sourceTree = "<group>"; };
+		3A7B30B8153851ED0054D776 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfile.h; path = "Rail Paper Less/Classes/Utilities/UserProfile.h"; sourceTree = "<group>"; };
+		3A7B30B9153851ED0054D776 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfile.m; path = "Rail Paper Less/Classes/Utilities/UserProfile.m"; sourceTree = "<group>"; };
+		3A7B30BB1538725F0054D776 /* 3417653.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3417653.GIF; sourceTree = "<group>"; };
+		3A8744A41578D1150069C959 /* userInputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = userInputVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/userInputVC.h"; sourceTree = "<group>"; };
+		3A8744A51578D1150069C959 /* userInputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = userInputVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/userInputVC.m"; sourceTree = "<group>"; };
+		3A8744A91578D1490069C959 /* userInputVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = userInputVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/userInputVC.xib"; sourceTree = "<group>"; };
+		3A8744AB1578D9210069C959 /* ordersListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ordersListVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/ordersListVC.h"; sourceTree = "<group>"; };
+		3A8744AC1578D9210069C959 /* ordersListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ordersListVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/MaterialHandler/ordersListVC.m"; sourceTree = "<group>"; };
+		3A8744B01578D9500069C959 /* ordersListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ordersListVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/ordersListVC.xib"; sourceTree = "<group>"; };
+		3A8744B21578DA260069C959 /* RootTabMH.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootTabMH.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/RootTabMH.xib"; sourceTree = "<group>"; };
+		3A8A3077157CF87D00F5B970 /* POXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POXMLParser.h; path = "Rail Paper Less/Classes/XMLParser/POXMLParser.h"; sourceTree = "<group>"; };
+		3A8A3078157CF87D00F5B970 /* POXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POXMLParser.m; path = "Rail Paper Less/Classes/XMLParser/POXMLParser.m"; sourceTree = "<group>"; };
+		3A8A307B157CFD1300F5B970 /* POOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POOrder.h; path = "Rail Paper Less/Classes/DataModel/POOrder.h"; sourceTree = "<group>"; };
+		3A8A307C157CFD1300F5B970 /* POOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POOrder.m; path = "Rail Paper Less/Classes/DataModel/POOrder.m"; sourceTree = "<group>"; };
+		3A8A307E157CFDA700F5B970 /* PositionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionData.h; path = "Rail Paper Less/Classes/DataModel/PositionData.h"; sourceTree = "<group>"; };
+		3A8A307F157CFDA700F5B970 /* PositionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionData.m; path = "Rail Paper Less/Classes/DataModel/PositionData.m"; sourceTree = "<group>"; };
+		3A8E74381581EF5100A0C112 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A8E743C15821B1500A0C112 /* userInputCWVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = userInputCWVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/userInputCWVC.h"; sourceTree = "<group>"; };
+		3A8E743D15821B1500A0C112 /* userInputCWVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = userInputCWVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/userInputCWVC.m"; sourceTree = "<group>"; };
+		3A8ED0A115872FB60003305F /* CWOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWOrder.h; path = "Rail Paper Less/Classes/DataModel/CWOrder.h"; sourceTree = "<group>"; };
+		3A8ED0A215872FB60003305F /* CWOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWOrder.m; path = "Rail Paper Less/Classes/DataModel/CWOrder.m"; sourceTree = "<group>"; };
+		3A8F8DB815A6C684003EAD3F /* DefaultGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DefaultGridCell.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/DefaultGridCell.xib"; sourceTree = "<group>"; };
+		3A8F8DBF15A6C75D003EAD3F /* DefaultGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultGridCell.h; path = "Rail Paper Less/UI/iPad/Views/DefaultGridCell.h"; sourceTree = "<group>"; };
+		3A8F8DC015A6C75D003EAD3F /* DefaultGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultGridCell.m; path = "Rail Paper Less/UI/iPad/Views/DefaultGridCell.m"; sourceTree = "<group>"; };
+		3A90F1521585D95E00500449 /* RootTabCW.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootTabCW.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/RootTabCW.xib"; sourceTree = "<group>"; };
+		3A90F1581585F98200500449 /* CWOrdersListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWOrdersListVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/CWOrdersListVC.h"; sourceTree = "<group>"; };
+		3A90F1591585F98200500449 /* CWOrdersListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWOrdersListVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/CWOrdersListVC.m"; sourceTree = "<group>"; };
+		3A90F15D1585FA4200500449 /* CWOrdersListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CWOrdersListVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/CWOrdersListVC.xib"; sourceTree = "<group>"; };
+		3A90F15F15861A2400500449 /* operationsListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = operationsListVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/operationsListVC.h"; sourceTree = "<group>"; };
+		3A90F16015861A2400500449 /* operationsListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = operationsListVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/CellWorker/operationsListVC.m"; sourceTree = "<group>"; };
+		3A90F16415861A5D00500449 /* operationsListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = operationsListVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/operationsListVC.xib"; sourceTree = "<group>"; };
+		3A9119D8153F01700090C1FC /* 470018835.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 470018835.gif; sourceTree = "<group>"; };
+		3A9119DB153F017C0090C1FC /* 450053302.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 450053302.gif; sourceTree = "<group>"; };
+		3A9119DD153F01830090C1FC /* 450053070.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 450053070.gif; sourceTree = "<group>"; };
+		3A9119DF153F018B0090C1FC /* 440039551.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 440039551.gif; sourceTree = "<group>"; };
+		3A91B001157F74A100DFE90B /* inputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = inputView.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/inputView.xib"; sourceTree = "<group>"; };
+		3A91E2FC156F9BC700C755E9 /* inputParamVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = inputParamVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/inputParamVC.xib"; sourceTree = "<group>"; };
+		3A941DF015B44F04009F35AB /* helpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helpViewController.h; path = "Rail Paper Less/UI/iPad/ViewControllers/helpViewController.h"; sourceTree = "<group>"; };
+		3A941DF115B44F04009F35AB /* helpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helpViewController.m; path = "Rail Paper Less/UI/iPad/ViewControllers/helpViewController.m"; sourceTree = "<group>"; };
+		3A941DF615B44F45009F35AB /* helpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = helpViewController.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/helpViewController.xib"; sourceTree = "<group>"; };
+		3A941DFA15B45224009F35AB /* help.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = help.pdf; sourceTree = "<group>"; };
+		3A941E0315B455D3009F35AB /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		3A941E0515B455D3009F35AB /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
+		3A941E0615B455D3009F35AB /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		3A941E0715B455D3009F35AB /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		3AB15E671536E3A8000177CC /* App_Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = App_Storage.h; path = "Rail Paper Less/Classes/Storage/App_Storage.h"; sourceTree = "<group>"; };
+		3AB15E681536E3A8000177CC /* App_Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = App_Storage.m; path = "Rail Paper Less/Classes/Storage/App_Storage.m"; sourceTree = "<group>"; };
+		3AB15E6B1536E90D000177CC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3AB15E731536EDA2000177CC /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = "Rail Paper Less/Classes/XMLParser/XMLParser.h"; sourceTree = "<group>"; };
+		3AB15E741536EDA2000177CC /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = "Rail Paper Less/Classes/XMLParser/XMLParser.m"; sourceTree = "<group>"; };
+		3AB15E7E1536F359000177CC /* orderXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orderXML.xml; sourceTree = "<group>"; };
+		3AB15E8515370771000177CC /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = "Rail Paper Less/Classes/DataModel/Order.h"; sourceTree = "<group>"; };
+		3AB15E8615370771000177CC /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = "Rail Paper Less/Classes/DataModel/Order.m"; sourceTree = "<group>"; };
+		3AB18567158733AD0036F159 /* OperationsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationsData.h; path = "Rail Paper Less/Classes/DataModel/OperationsData.h"; sourceTree = "<group>"; };
+		3AB18568158733AD0036F159 /* OperationsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationsData.m; path = "Rail Paper Less/Classes/DataModel/OperationsData.m"; sourceTree = "<group>"; };
+		3AB39613153470B1002F78D9 /* app_btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_btn_back.png; path = "Rail Paper Less/UI/iPad/Resources/Images/app_btn_back.png"; sourceTree = "<group>"; };
+		3AB39614153470B1002F78D9 /* app_btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_btn_back@2x.png"; path = "Rail Paper Less/UI/iPad/Resources/Images/app_btn_back@2x.png"; sourceTree = "<group>"; };
+		3AB3961815347296002F78D9 /* PriorityOrdersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriorityOrdersVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/PriorityOrdersVC.h"; sourceTree = "<group>"; };
+		3AB3961915347296002F78D9 /* PriorityOrdersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PriorityOrdersVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/PriorityOrdersVC.m"; sourceTree = "<group>"; };
+		3AB3961B15347485002F78D9 /* BackLogOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackLogOrders.h; path = "Rail Paper Less/UI/iPad/ViewControllers/BackLogOrders.h"; sourceTree = "<group>"; };
+		3AB3961C15347486002F78D9 /* BackLogOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackLogOrders.m; path = "Rail Paper Less/UI/iPad/ViewControllers/BackLogOrders.m"; sourceTree = "<group>"; };
+		3AB3961E153475C6002F78D9 /* app_btn_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_btn_settings.png; path = "Rail Paper Less/UI/iPad/Resources/Images/app_btn_settings.png"; sourceTree = "<group>"; };
+		3AB3961F153475C6002F78D9 /* app_btn_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_btn_settings@2x.png"; path = "Rail Paper Less/UI/iPad/Resources/Images/app_btn_settings@2x.png"; sourceTree = "<group>"; };
+		3AB39622153476C6002F78D9 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/SettingsVC.h"; sourceTree = "<group>"; };
+		3AB39623153476C6002F78D9 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/SettingsVC.m"; sourceTree = "<group>"; };
+		3AB39627153476EC002F78D9 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/SettingsVC.xib"; sourceTree = "<group>"; };
+		3AB3962D15347CAC002F78D9 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3AE12C3C157E2242009953E3 /* rail.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = rail.db; sourceTree = "<group>"; };
+		3AE12C3E157E428E009953E3 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridCell.h; path = "Rail Paper Less/UI/iPad/Views/GridCell.h"; sourceTree = "<group>"; };
+		3AE12C3F157E428E009953E3 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridCell.m; path = "Rail Paper Less/UI/iPad/Views/GridCell.m"; sourceTree = "<group>"; };
+		3AE7D93F156A477B00FEB710 /* LoginParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginParser.h; path = "Rail Paper Less/Classes/XMLParser/LoginParser.h"; sourceTree = "<group>"; };
+		3AE7D940156A477B00FEB710 /* LoginParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginParser.m; path = "Rail Paper Less/Classes/XMLParser/LoginParser.m"; sourceTree = "<group>"; };
+		3AEC64351575098100BCFDF2 /* DefaultTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DefaultTableCell.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/DefaultTableCell.xib"; sourceTree = "<group>"; };
+		3AEC643815750A2400BCFDF2 /* DefaultTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultTableCell.h; path = "Rail Paper Less/UI/iPad/Views/DefaultTableCell.h"; sourceTree = "<group>"; };
+		3AEC643915750A2400BCFDF2 /* DefaultTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultTableCell.m; path = "Rail Paper Less/UI/iPad/Views/DefaultTableCell.m"; sourceTree = "<group>"; };
+		3AF29F011566511D00D40C0D /* LoginOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginOperation.h; path = "Rail Paper Less/Classes/Services/LoginOperation.h"; sourceTree = "<group>"; };
+		3AF29F021566511E00D40C0D /* LoginOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginOperation.m; path = "Rail Paper Less/Classes/Services/LoginOperation.m"; sourceTree = "<group>"; };
+		3AFFA002153C0C5800E7AD4B /* drawingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawingVC.h; path = "Rail Paper Less/UI/iPad/ViewControllers/drawingVC.h"; sourceTree = "<group>"; };
+		3AFFA003153C0C5800E7AD4B /* drawingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drawingVC.m; path = "Rail Paper Less/UI/iPad/ViewControllers/drawingVC.m"; sourceTree = "<group>"; };
+		3AFFA008153C0C7A00E7AD4B /* drawingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = drawingVC.xib; path = "Rail Paper Less/UI/iPad/Resources/Nib/drawingVC.xib"; sourceTree = "<group>"; };
+		3AFFA00A153C553100E7AD4B /* 4000198.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4000198.gif; sourceTree = "<group>"; };
+		3AFFA014153C5BD300E7AD4B /* list_item_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_item_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A31B6CD1532CDB4008F16BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8E74391581EF5200A0C112 /* QuartzCore.framework in Frameworks */,
+				3A0BA11715774D7E00DE056C /* SystemConfiguration.framework in Frameworks */,
+				3A0BA11515774D3B00DE056C /* CFNetwork.framework in Frameworks */,
+				3AB15E6C1536E90D000177CC /* libsqlite3.0.dylib in Frameworks */,
+				3A31B6D51532CDB4008F16BD /* UIKit.framework in Frameworks */,
+				3A31B6D71532CDB4008F16BD /* Foundation.framework in Frameworks */,
+				3A31B6D91532CDB4008F16BD /* CoreGraphics.framework in Frameworks */,
+				3A941E0815B455D3009F35AB /* FastPdfKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0BA10F15774CF300DE056C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BA11115774D1900DE056C /* Reachability.h */,
+				3A0BA11215774D1900DE056C /* Reachability.m */,
+				3A0BA11F1577604800DE056C /* NetworkInterface.h */,
+				3A0BA1201577604800DE056C /* NetworkInterface.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		3A31B6C51532CDB4008F16BD = {
+			isa = PBXGroup;
+			children = (
+				3A941E0215B455D3009F35AB /* FastPdfKit.embeddedframework */,
+				3A0BA12615777E2700DE056C /* Default-Portrait@2x~ipad.png */,
+				3A0BA12415777DFB00DE056C /* Default@2x.png */,
+				3A0BA12215777DF500DE056C /* Default.png */,
+				3AB3962D15347CAC002F78D9 /* Default-Portrait~ipad.png */,
+				3A31B70F1532FB6F008F16BD /* Classes */,
+				3A31B6F41532CE77008F16BD /* UI */,
+				3A31B6DA1532CDB4008F16BD /* Rail Paper Less */,
+				3A31B6D31532CDB4008F16BD /* Frameworks */,
+				3A31B6D11532CDB4008F16BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A31B6D11532CDB4008F16BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B6D01532CDB4008F16BD /* Rail Paper Less.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A31B6D31532CDB4008F16BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E74381581EF5100A0C112 /* QuartzCore.framework */,
+				3A0BA11615774D7E00DE056C /* SystemConfiguration.framework */,
+				3AB15E6B1536E90D000177CC /* libsqlite3.0.dylib */,
+				3A0BA11415774D3B00DE056C /* CFNetwork.framework */,
+				3A31B6D41532CDB4008F16BD /* UIKit.framework */,
+				3A31B6D61532CDB4008F16BD /* Foundation.framework */,
+				3A31B6D81532CDB4008F16BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A31B6DA1532CDB4008F16BD /* Rail Paper Less */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B6E31532CDB4008F16BD /* AppDelegate.h */,
+				3A31B6E41532CDB4008F16BD /* AppDelegate.m */,
+				3A31B6E61532CDB4008F16BD /* ViewController.h */,
+				3A31B6E71532CDB4008F16BD /* ViewController.m */,
+				3A31B6E91532CDB4008F16BD /* ViewController_iPhone.xib */,
+				3A31B6EC1532CDB4008F16BD /* ViewController_iPad.xib */,
+				3A31B6DB1532CDB4008F16BD /* Supporting Files */,
+			);
+			path = "Rail Paper Less";
+			sourceTree = "<group>";
+		};
+		3A31B6DB1532CDB4008F16BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AE12C3C157E2242009953E3 /* rail.db */,
+				3AB15E7E1536F359000177CC /* orderXML.xml */,
+				3A31B6DC1532CDB4008F16BD /* Rail Paper Less-Info.plist */,
+				3A31B6DD1532CDB4008F16BD /* InfoPlist.strings */,
+				3A31B6E01532CDB4008F16BD /* main.m */,
+				3A31B6E21532CDB4008F16BD /* Rail Paper Less-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A31B6F41532CE77008F16BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B6F61532CE8F008F16BD /* iPad */,
+				3A31B6F51532CE8C008F16BD /* iPhone */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		3A31B6F51532CE8C008F16BD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		3A31B6F61532CE8F008F16BD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B7181532FDFE008F16BD /* Views */,
+				3A31B6FA1532CEC2008F16BD /* ViewControllers */,
+				3A31B6F71532CE9E008F16BD /* Resources */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		3A31B6F71532CE9E008F16BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B6F91532CEB8008F16BD /* Nib */,
+				3A31B6F81532CEAD008F16BD /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A31B6F81532CEAD008F16BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3AFFA014153C5BD300E7AD4B /* list_item_bg@2x.png */,
+				3A4AD1D6156BCFA2002DFD05 /* bg1.jpg */,
+				3A941DFA15B45224009F35AB /* help.pdf */,
+				3A9119DF153F018B0090C1FC /* 440039551.gif */,
+				3A9119DD153F01830090C1FC /* 450053070.gif */,
+				3A9119DB153F017C0090C1FC /* 450053302.gif */,
+				3A9119D8153F01700090C1FC /* 470018835.gif */,
+				3A7196E8153D5153007F2E00 /* icon_information.png */,
+				3A7B30BB1538725F0054D776 /* 3417653.GIF */,
+				3AFFA00A153C553100E7AD4B /* 4000198.gif */,
+				3AB3961E153475C6002F78D9 /* app_btn_settings.png */,
+				3AB3961F153475C6002F78D9 /* app_btn_settings@2x.png */,
+				3AB39613153470B1002F78D9 /* app_btn_back.png */,
+				3AB39614153470B1002F78D9 /* app_btn_back@2x.png */,
+				3A31B7081532F97A008F16BD /* green_button.png */,
+				3A31B7061532CFAA008F16BD /* railBanner.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3A31B6F91532CEB8008F16BD /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				3A941DF615B44F45009F35AB /* helpViewController.xib */,
+				3A425A6F1588CDFF0034DE13 /* operationsDetailsVC.xib */,
+				3A90F16415861A5D00500449 /* operationsListVC.xib */,
+				3A90F15D1585FA4200500449 /* CWOrdersListVC.xib */,
+				3A27BC8D157CD4C100DFC480 /* orderLineDetailsVC.xib */,
+				3A8744B01578D9500069C959 /* ordersListVC.xib */,
+				3A8744A91578D1490069C959 /* userInputVC.xib */,
+				3A0BA11D157755D800DE056C /* NetwrokErrorVC.xib */,
+				3A91E2FC156F9BC700C755E9 /* inputParamVC.xib */,
+				3A7196EF153D5C1A007F2E00 /* backLogOrderDetailsVC.xib */,
+				3A7196E2153D4D9A007F2E00 /* priorityOrderDetailsVC.xib */,
+				3AFFA008153C0C7A00E7AD4B /* drawingVC.xib */,
+				3AB39627153476EC002F78D9 /* SettingsVC.xib */,
+				3A31B743153323C0008F16BD /* OrderDetailsVC.xib */,
+				3A31B731153316D5008F16BD /* App_TableViewController.xib */,
+				3A31B7001532CF2D008F16BD /* LoginVC.xib */,
+				3A31B72415331363008F16BD /* RootTab.xib */,
+				3AEC64351575098100BCFDF2 /* DefaultTableCell.xib */,
+				3A8744B21578DA260069C959 /* RootTabMH.xib */,
+				3A91B001157F74A100DFE90B /* inputView.xib */,
+				3A90F1521585D95E00500449 /* RootTabCW.xib */,
+				3A8F8DB815A6C684003EAD3F /* DefaultGridCell.xib */,
+				3A3BEF2015F0F070001655F5 /* priorityInputView.xib */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		3A31B6FA1532CEC2008F16BD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E743B1582184700A0C112 /* CellWorker */,
+				3A8744A21578D0E70069C959 /* MaterialHandler */,
+				3A31B71C1532FED0008F16BD /* App_ViewController.h */,
+				3A31B71D1532FED0008F16BD /* App_ViewController.m */,
+				3A31B6FB1532CEFF008F16BD /* LoginVC.h */,
+				3A31B6FC1532CEFF008F16BD /* LoginVC.m */,
+				3A31B72C153316A0008F16BD /* App_TableViewController.h */,
+				3A31B72D153316A0008F16BD /* App_TableViewController.m */,
+				3A31B73B1533199E008F16BD /* OrdersVC.h */,
+				3A31B73C1533199E008F16BD /* OrdersVC.m */,
+				3A31B73E15332394008F16BD /* OrderDetailsVC.h */,
+				3A31B73F15332394008F16BD /* OrderDetailsVC.m */,
+				3AB3961815347296002F78D9 /* PriorityOrdersVC.h */,
+				3AB3961915347296002F78D9 /* PriorityOrdersVC.m */,
+				3AB3961B15347485002F78D9 /* BackLogOrders.h */,
+				3AB3961C15347486002F78D9 /* BackLogOrders.m */,
+				3AB39622153476C6002F78D9 /* SettingsVC.h */,
+				3AB39623153476C6002F78D9 /* SettingsVC.m */,
+				3AFFA002153C0C5800E7AD4B /* drawingVC.h */,
+				3AFFA003153C0C5800E7AD4B /* drawingVC.m */,
+				3A7196DC153D4D76007F2E00 /* priorityOrderDetailsVC.h */,
+				3A7196DD153D4D76007F2E00 /* priorityOrderDetailsVC.m */,
+				3A7196EA153D5BF9007F2E00 /* backLogOrderDetailsVC.h */,
+				3A7196EB153D5BF9007F2E00 /* backLogOrderDetailsVC.m */,
+				3A4AD1D8156BD0A8002DFD05 /* inputParamVC.h */,
+				3A4AD1D9156BD0A8002DFD05 /* inputParamVC.m */,
+				3A0BA118157755B300DE056C /* NetwrokErrorVC.h */,
+				3A0BA119157755B300DE056C /* NetwrokErrorVC.m */,
+				3A941DF015B44F04009F35AB /* helpViewController.h */,
+				3A941DF115B44F04009F35AB /* helpViewController.m */,
+				3A45D42216284A0900E4A37F /* showDrawingVC.h */,
+				3A45D42316284A0900E4A37F /* showDrawingVC.m */,
+				3A45D42416284A0900E4A37F /* showDrawingVC.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A31B70F1532FB6F008F16BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BA10F15774CF300DE056C /* Network */,
+				3AB15E841537075C000177CC /* DataModel */,
+				3AB15E651536E38A000177CC /* Storage */,
+				3A5984D61535A18A0020B91C /* XMLParser */,
+				3A31B7111532FB81008F16BD /* Utilities */,
+				3A31B7101532FB77008F16BD /* Services */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3A31B7101532FB77008F16BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A287D2E159339C000501460 /* WhiteRaccoon.h */,
+				3A287D2F159339C000501460 /* WhiteRaccoon.m */,
+				3A31B71F1532FFA4008F16BD /* AuthenticationService.h */,
+				3A31B7201532FFA4008F16BD /* AuthenticationService.m */,
+				3A7B30B0153814890054D776 /* DataSource.h */,
+				3A7B30B1153814890054D776 /* DataSource.m */,
+				3AF29F011566511D00D40C0D /* LoginOperation.h */,
+				3AF29F021566511E00D40C0D /* LoginOperation.m */,
+				3A4AD1C3156B807D002DFD05 /* DataDownloadOperation.h */,
+				3A4AD1C4156B807D002DFD05 /* DataDownloadOperation.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3A31B7111532FB81008F16BD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A31B7151532FD89008F16BD /* App_GeneralUtilities.h */,
+				3A31B7161532FD89008F16BD /* App_GeneralUtilities.m */,
+				3A31B7121532FBA6008F16BD /* ConstantDefines.h */,
+				3A31B7131532FBA6008F16BD /* ConstantDefines.m */,
+				3A7B30B8153851ED0054D776 /* UserProfile.h */,
+				3A7B30B9153851ED0054D776 /* UserProfile.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3A31B7181532FDFE008F16BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A7196F7153D5F8F007F2E00 /* dummyLoginView.h */,
+				3A7196F8153D5F8F007F2E00 /* dummyLoginView.m */,
+				3A31B7191532FE3D008F16BD /* VZAnimatedView.h */,
+				3A31B71A1532FE3D008F16BD /* VZAnimatedView.m */,
+				3AEC643815750A2400BCFDF2 /* DefaultTableCell.h */,
+				3AEC643915750A2400BCFDF2 /* DefaultTableCell.m */,
+				3AE12C3E157E428E009953E3 /* GridCell.h */,
+				3AE12C3F157E428E009953E3 /* GridCell.m */,
+				3A8F8DBF15A6C75D003EAD3F /* DefaultGridCell.h */,
+				3A8F8DC015A6C75D003EAD3F /* DefaultGridCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3A5984D61535A18A0020B91C /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				3AB15E731536EDA2000177CC /* XMLParser.h */,
+				3AB15E741536EDA2000177CC /* XMLParser.m */,
+				3AE7D93F156A477B00FEB710 /* LoginParser.h */,
+				3AE7D940156A477B00FEB710 /* LoginParser.m */,
+				3A8A3077157CF87D00F5B970 /* POXMLParser.h */,
+				3A8A3078157CF87D00F5B970 /* POXMLParser.m */,
+				3A0C53AE15876B6700E0B791 /* CWXMLParser.h */,
+				3A0C53AF15876B6700E0B791 /* CWXMLParser.m */,
+				3A45D41E1628280100E4A37F /* drawingPathXMLParser.h */,
+				3A45D41F1628280100E4A37F /* drawingPathXMLParser.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		3A8744A21578D0E70069C959 /* MaterialHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3A8744A41578D1150069C959 /* userInputVC.h */,
+				3A8744A51578D1150069C959 /* userInputVC.m */,
+				3A8744AB1578D9210069C959 /* ordersListVC.h */,
+				3A8744AC1578D9210069C959 /* ordersListVC.m */,
+				3A27BC87157CD44D00DFC480 /* orderLineDetailsVC.h */,
+				3A27BC88157CD44D00DFC480 /* orderLineDetailsVC.m */,
+			);
+			name = MaterialHandler;
+			sourceTree = "<group>";
+		};
+		3A8E743B1582184700A0C112 /* CellWorker */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E743C15821B1500A0C112 /* userInputCWVC.h */,
+				3A8E743D15821B1500A0C112 /* userInputCWVC.m */,
+				3A90F1581585F98200500449 /* CWOrdersListVC.h */,
+				3A90F1591585F98200500449 /* CWOrdersListVC.m */,
+				3A90F15F15861A2400500449 /* operationsListVC.h */,
+				3A90F16015861A2400500449 /* operationsListVC.m */,
+				3A425A691588CDC20034DE13 /* operationsDetailsVC.h */,
+				3A425A6A1588CDC20034DE13 /* operationsDetailsVC.m */,
+			);
+			name = CellWorker;
+			sourceTree = "<group>";
+		};
+		3A941E0215B455D3009F35AB /* FastPdfKit.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3A941E0315B455D3009F35AB /* FastPdfKit.framework */,
+				3A941E0415B455D3009F35AB /* Resources */,
+			);
+			path = FastPdfKit.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3A941E0415B455D3009F35AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A941E0515B455D3009F35AB /* FastPdfKitFramework.xcconfig */,
+				3A941E0615B455D3009F35AB /* FPKReaderBundle.bundle */,
+				3A941E0715B455D3009F35AB /* Snippets.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AB15E651536E38A000177CC /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3AB15E671536E3A8000177CC /* App_Storage.h */,
+				3AB15E681536E3A8000177CC /* App_Storage.m */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		3AB15E841537075C000177CC /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AB15E8515370771000177CC /* Order.h */,
+				3AB15E8615370771000177CC /* Order.m */,
+				3A8A307B157CFD1300F5B970 /* POOrder.h */,
+				3A8A307C157CFD1300F5B970 /* POOrder.m */,
+				3A8A307E157CFDA700F5B970 /* PositionData.h */,
+				3A8A307F157CFDA700F5B970 /* PositionData.m */,
+				3A8ED0A115872FB60003305F /* CWOrder.h */,
+				3A8ED0A215872FB60003305F /* CWOrder.m */,
+				3AB18567158733AD0036F159 /* OperationsData.h */,
+				3AB18568158733AD0036F159 /* OperationsData.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A31B6CF1532CDB4008F16BD /* Rail Paper Less */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A31B6F11532CDB4008F16BD /* Build configuration list for PBXNativeTarget "Rail Paper Less" */;
+			buildPhases = (
+				3A31B6CC1532CDB4008F16BD /* Sources */,
+				3A31B6CD1532CDB4008F16BD /* Frameworks */,
+				3A31B6CE1532CDB4008F16BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rail Paper Less";
+			productName = "Rail Paper Less";
+			productReference = 3A31B6D01532CDB4008F16BD /* Rail Paper Less.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A31B6C71532CDB4008F16BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3A31B6CA1532CDB4008F16BD /* Build configuration list for PBXProject "Rail Paper Less" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A31B6C51532CDB4008F16BD;
+			productRefGroup = 3A31B6D11532CDB4008F16BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A31B6CF1532CDB4008F16BD /* Rail Paper Less */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A31B6CE1532CDB4008F16BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A31B6DF1532CDB4008F16BD /* InfoPlist.strings in Resources */,
+				3A31B6EB1532CDB4008F16BD /* ViewController_iPhone.xib in Resources */,
+				3A31B6EE1532CDB4008F16BD /* ViewController_iPad.xib in Resources */,
+				3A31B7011532CF2D008F16BD /* LoginVC.xib in Resources */,
+				3A31B7071532CFAA008F16BD /* railBanner.jpg in Resources */,
+				3A31B7091532F97A008F16BD /* green_button.png in Resources */,
+				3A31B72515331363008F16BD /* RootTab.xib in Resources */,
+				3A31B732153316D5008F16BD /* App_TableViewController.xib in Resources */,
+				3A31B744153323C0008F16BD /* OrderDetailsVC.xib in Resources */,
+				3AB39615153470B1002F78D9 /* app_btn_back.png in Resources */,
+				3AB39616153470B1002F78D9 /* app_btn_back@2x.png in Resources */,
+				3AB39620153475C6002F78D9 /* app_btn_settings.png in Resources */,
+				3AB39621153475C6002F78D9 /* app_btn_settings@2x.png in Resources */,
+				3AB39628153476EC002F78D9 /* SettingsVC.xib in Resources */,
+				3AB15E7F1536F359000177CC /* orderXML.xml in Resources */,
+				3A7B30BC1538725F0054D776 /* 3417653.GIF in Resources */,
+				3AFFA009153C0C7A00E7AD4B /* drawingVC.xib in Resources */,
+				3AFFA00B153C553100E7AD4B /* 4000198.gif in Resources */,
+				3AFFA015153C5BD300E7AD4B /* list_item_bg@2x.png in Resources */,
+				3A7196E3153D4D9A007F2E00 /* priorityOrderDetailsVC.xib in Resources */,
+				3A7196E9153D5153007F2E00 /* icon_information.png in Resources */,
+				3A7196F0153D5C1A007F2E00 /* backLogOrderDetailsVC.xib in Resources */,
+				3A9119D9153F01700090C1FC /* 470018835.gif in Resources */,
+				3A9119DC153F017C0090C1FC /* 450053302.gif in Resources */,
+				3A9119DE153F01830090C1FC /* 450053070.gif in Resources */,
+				3A9119E0153F018B0090C1FC /* 440039551.gif in Resources */,
+				3A4AD1D7156BCFA2002DFD05 /* bg1.jpg in Resources */,
+				3A91E2FD156F9BC700C755E9 /* inputParamVC.xib in Resources */,
+				3AEC64361575098100BCFDF2 /* DefaultTableCell.xib in Resources */,
+				3A0BA11E157755D800DE056C /* NetwrokErrorVC.xib in Resources */,
+				3AA1C3D7157786F100C2B51E /* Default-Portrait@2x~ipad.png in Resources */,
+				3AA1C3D9157786F900C2B51E /* Default-Portrait~ipad.png in Resources */,
+				3A8744AA1578D1490069C959 /* userInputVC.xib in Resources */,
+				3A8744B11578D9500069C959 /* ordersListVC.xib in Resources */,
+				3A8744B31578DA260069C959 /* RootTabMH.xib in Resources */,
+				3A27BC8E157CD4C100DFC480 /* orderLineDetailsVC.xib in Resources */,
+				3AE12C3D157E2242009953E3 /* rail.db in Resources */,
+				3A91B002157F74A100DFE90B /* inputView.xib in Resources */,
+				3A90F1531585D95E00500449 /* RootTabCW.xib in Resources */,
+				3A90F15E1585FA4200500449 /* CWOrdersListVC.xib in Resources */,
+				3A90F16515861A5D00500449 /* operationsListVC.xib in Resources */,
+				3A425A701588CDFF0034DE13 /* operationsDetailsVC.xib in Resources */,
+				3A8F8DB915A6C684003EAD3F /* DefaultGridCell.xib in Resources */,
+				3A941DF715B44F45009F35AB /* helpViewController.xib in Resources */,
+				3A941DFB15B45224009F35AB /* help.pdf in Resources */,
+				3A941E0915B455D3009F35AB /* FastPdfKitFramework.xcconfig in Resources */,
+				3A941E0A15B455D3009F35AB /* FPKReaderBundle.bundle in Resources */,
+				3A941E0B15B455D3009F35AB /* Snippets.txt in Resources */,
+				3A3BEF2115F0F071001655F5 /* priorityInputView.xib in Resources */,
+				3A45D42616284A0900E4A37F /* showDrawingVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A31B6CC1532CDB4008F16BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A31B6E11532CDB4008F16BD /* main.m in Sources */,
+				3A31B6E51532CDB4008F16BD /* AppDelegate.m in Sources */,
+				3A31B6E81532CDB4008F16BD /* ViewController.m in Sources */,
+				3A31B6FE1532CEFF008F16BD /* LoginVC.m in Sources */,
+				3A31B7141532FBA6008F16BD /* ConstantDefines.m in Sources */,
+				3A31B7171532FD89008F16BD /* App_GeneralUtilities.m in Sources */,
+				3A31B71B1532FE3D008F16BD /* VZAnimatedView.m in Sources */,
+				3A31B71E1532FED0008F16BD /* App_ViewController.m in Sources */,
+				3A31B7211532FFA4008F16BD /* AuthenticationService.m in Sources */,
+				3A31B72F153316A0008F16BD /* App_TableViewController.m in Sources */,
+				3A31B73D1533199F008F16BD /* OrdersVC.m in Sources */,
+				3A31B74115332394008F16BD /* OrderDetailsVC.m in Sources */,
+				3AB3961A15347296002F78D9 /* PriorityOrdersVC.m in Sources */,
+				3AB3961D15347486002F78D9 /* BackLogOrders.m in Sources */,
+				3AB39625153476C7002F78D9 /* SettingsVC.m in Sources */,
+				3AB15E691536E3A8000177CC /* App_Storage.m in Sources */,
+				3AB15E751536EDA2000177CC /* XMLParser.m in Sources */,
+				3AB15E8715370771000177CC /* Order.m in Sources */,
+				3A7B30B2153814890054D776 /* DataSource.m in Sources */,
+				3A7B30BA153851ED0054D776 /* UserProfile.m in Sources */,
+				3AFFA005153C0C5800E7AD4B /* drawingVC.m in Sources */,
+				3A7196DF153D4D76007F2E00 /* priorityOrderDetailsVC.m in Sources */,
+				3A7196ED153D5BFA007F2E00 /* backLogOrderDetailsVC.m in Sources */,
+				3A7196F9153D5F8F007F2E00 /* dummyLoginView.m in Sources */,
+				3AF29F031566511E00D40C0D /* LoginOperation.m in Sources */,
+				3AE7D941156A477B00FEB710 /* LoginParser.m in Sources */,
+				3A4AD1C5156B807D002DFD05 /* DataDownloadOperation.m in Sources */,
+				3A4AD1DB156BD0A9002DFD05 /* inputParamVC.m in Sources */,
+				3AEC643A15750A2400BCFDF2 /* DefaultTableCell.m in Sources */,
+				3A0BA11315774D1900DE056C /* Reachability.m in Sources */,
+				3A0BA11B157755B300DE056C /* NetwrokErrorVC.m in Sources */,
+				3A0BA1211577604800DE056C /* NetworkInterface.m in Sources */,
+				3A8744A71578D1150069C959 /* userInputVC.m in Sources */,
+				3A8744AE1578D9210069C959 /* ordersListVC.m in Sources */,
+				3A27BC8A157CD44D00DFC480 /* orderLineDetailsVC.m in Sources */,
+				3A8A3079157CF87D00F5B970 /* POXMLParser.m in Sources */,
+				3A8A307D157CFD1300F5B970 /* POOrder.m in Sources */,
+				3A8A3080157CFDA700F5B970 /* PositionData.m in Sources */,
+				3AE12C40157E428E009953E3 /* GridCell.m in Sources */,
+				3A8E743E15821B1500A0C112 /* userInputCWVC.m in Sources */,
+				3A90F15B1585F98200500449 /* CWOrdersListVC.m in Sources */,
+				3A90F16215861A2400500449 /* operationsListVC.m in Sources */,
+				3A8ED0A315872FB60003305F /* CWOrder.m in Sources */,
+				3AB18569158733AD0036F159 /* OperationsData.m in Sources */,
+				3A0C53B015876B6700E0B791 /* CWXMLParser.m in Sources */,
+				3A425A6C1588CDC20034DE13 /* operationsDetailsVC.m in Sources */,
+				3A287D30159339C000501460 /* WhiteRaccoon.m in Sources */,
+				3A8F8DC115A6C75D003EAD3F /* DefaultGridCell.m in Sources */,
+				3A941DF315B44F04009F35AB /* helpViewController.m in Sources */,
+				3A45D4201628280100E4A37F /* drawingPathXMLParser.m in Sources */,
+				3A45D42516284A0900E4A37F /* showDrawingVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A31B6DD1532CDB4008F16BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A31B6DE1532CDB4008F16BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A31B6E91532CDB4008F16BD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A31B6EA1532CDB4008F16BD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3A31B6EC1532CDB4008F16BD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A31B6ED1532CDB4008F16BD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A31B6EF1532CDB4008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A31B6F01532CDB4008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Harsco Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harsco Corporation";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "8430F5CB-E5D0-4967-BA24-EDFB54D85563";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8430F5CB-E5D0-4967-BA24-EDFB54D85563";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A31B6F21532CDB4008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A941E0515B455D3009F35AB /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Harsco Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harsco Corporation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rail Paper Less/Rail Paper Less-Prefix.pch";
+				INFOPLIST_FILE = "Rail Paper Less/Rail Paper Less-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F93A3AC1-B768-4D0F-87BC-EF9101DF5F44";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F93A3AC1-B768-4D0F-87BC-EF9101DF5F44";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A31B6F31532CDB4008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A941E0515B455D3009F35AB /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FastPdfKit.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rail Paper Less/Rail Paper Less-Prefix.pch";
+				INFOPLIST_FILE = "Rail Paper Less/Rail Paper Less-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A31B6CA1532CDB4008F16BD /* Build configuration list for PBXProject "Rail Paper Less" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A31B6EF1532CDB4008F16BD /* Debug */,
+				3A31B6F01532CDB4008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A31B6F11532CDB4008F16BD /* Build configuration list for PBXNativeTarget "Rail Paper Less" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A31B6F21532CDB4008F16BD /* Debug */,
+				3A31B6F31532CDB4008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A31B6C71532CDB4008F16BD /* Project object */;
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<user id='57020'>
+<username value='KATHLEEN HARBIN'>
+<Open_Orders>
+  <Order value='470018835'><Item>57395-UA</Item><Quantity>10</Quantity><PldeliveryDate>2010-04-01</PldeliveryDate>
+  <StartDate>2010-03-03</StartDate>
+  <EndDate>2010-03-09</EndDate>
+  <Workcenter>1000</Workcenter>
+  <Planner>54001</Planner>
+      </Order>
+  <Order value='450053302'><Item>CAE-399</Item><Quantity>2</Quantity><PldeliveryDate>2010-04-02</PldeliveryDate>
+  <StartDate>2010-03-05</StartDate>
+  <EndDate>2010-03-05</EndDate>
+  <Workcenter>6020</Workcenter>
+  <Planner>54001</Planner> 
+      </Order>
+  <Order value='450053070'><Item>34595R</Item><Quantity>20</Quantity><PldeliveryDate>2010-04-03</PldeliveryDate>
+  <StartDate>2010-03-05</StartDate>
+  <EndDate>2010-03-11</EndDate>
+  <Workcenter>1000</Workcenter>
+  <Planner>54001</Planner>
+      </Order>
+  <Order value='440039551'><Item>EAR98759</Item><Quantity>4</Quantity><PldeliveryDate>2010-04-05</PldeliveryDate>
+  <StartDate>2010-03-07</StartDate>
+  <EndDate>2010-03-08</EndDate>
+  <Workcenter>1060</Workcenter>
+  <Planner>54000</Planner>
+      </Order>
+  <Order value='460016959'><Item>57395-UA</Item><Quantity>3</Quantity><PldeliveryDate>2010-04-06</PldeliveryDate>
+  <StartDate>2010-03-07</StartDate>
+  <EndDate>2010-03-08</EndDate>
+  <Workcenter>036</Workcenter>
+  <Planner>54011</Planner>
+      </Order>
+ </Open_Orders>
+</username>
+ </user>
